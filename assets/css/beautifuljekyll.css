@@ -1095,3 +1095,13 @@ pre {
   }
 }
 
+
+.nav-item.nav-item-register .nav-link.nav-link-register{
+  margin-top:0.4375rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.4375rem;
+  border-radius: 9px;
+  color: #61C6AB;
+  background-color: #E9F8F4;
+}
