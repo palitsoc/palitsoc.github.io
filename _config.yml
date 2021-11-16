@@ -7,14 +7,15 @@
 
 # Name of website
 title: Palestinian IT Society
-
+title-img: /assets/img/logo-longform.png
 # Your name to show in the footer
 author: Palestinian IT Society
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  
+  About: "about"
+  Contact Us: "contact-us"
 
 # --- Logo --- #
 
@@ -95,14 +96,14 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
+navbar-col: "#ffffff"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
+footer-col: "#ffffff"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
