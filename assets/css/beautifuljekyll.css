@@ -1102,6 +1102,15 @@ pre {
   padding-bottom: 0.5rem;
   margin-bottom: 0.4375rem;
   border-radius: 9px;
+  padding-right: 0.9375rem !important;
   color: #61C6AB;
   background-color: #E9F8F4;
+}
+
+@media (max-width: 768px) {
+  .nav-item.nav-item-register .nav-link.nav-link-register{
+    margin-left: 0.25rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+  }
 }
