@@ -20,6 +20,6 @@ The Palestinian IT Society is a grassroots group whose goal is to create a space
 
 We are still very young - we want you to join and help us define our activities. We intend to host meet-ups, seminars, and other similar community events, where we can all sit on equal grounds and share.
 
-## Our Goals
+## Our Mission
 
-Our goal is to grow the Palestinian IT Industry by breaking down barriers between its workers - by sharing knwoledge, and creating open, level ground for discussion, we believe we can help the industry shape up and compete on an ever higher level globally
+Our Mission is to grow the Palestinian IT Industry by breaking down barriers between its workers - by sharing knwoledge, and creating open, level ground for discussion, we believe we can help the industry shape up and compete on an ever higher level globally.
