@@ -1,0 +1,45 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta content="nosniff" http-equiv="X-Content-Type-Options">
+    <meta conten="SAMEORIGIN" http-equiv="X-Frame-Options">
+    <meta content="1" http-equiv="X-XSS-Protection">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/site.webmanifest" rel="manifest">
+    <link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon">
+    <meta content="#da532c" name="msapplication-TileColor">
+    <meta content="#ffffff" name="theme-color">
+    <link href="/assets/css/reveal/reset.css" rel="stylesheet">
+    <link href="/assets/css/reveal/reveal.css" rel="stylesheet">
+    <link href="/assets/css/reveal/theme/black.css" id="theme" rel="stylesheet">
+    {% seo %}
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            {{ content }}
+        </div>
+    </div>
+    <script src="/assets/js/reveal/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+            hash: true
+        });
+    </script>
+</body>
+
+</html>
