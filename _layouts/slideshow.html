@@ -30,14 +30,20 @@
         </div>
     </div>
     <script src="/assets/js/reveal/reveal.js"></script>
+    <script src="/assets/js/reveal/plugin/highlight/highlight.js"></script>
+    <script src="/assets/js/reveal/plugin/math/math.js"></script>
+    <script src="/assets/js/reveal/plugin/notes/notes.js"></script>
+    <script src="/assets/js/reveal/plugin/zoom/zoom.js"></script>
     <script>
         Reveal.initialize({
             controls: true,
             progress: true,
             history: true,
             center: true,
+            touch: true,
             transition: 'slide', // none/fade/slide/convex/concave/zoom
-            hash: true
+            hash: true,
+            plugins: [RevealHighlight, RevealMath.KaTeX, RevealNotes, RevealZoom]
         });
     </script>
 </body>
