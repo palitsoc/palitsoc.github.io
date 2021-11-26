@@ -1,6 +1,7 @@
 ---
 title: Frontend Optimization
 subtitle: "Application Performance Optimization : Frontend Optimization"
+description: "Application Performance Optimization : Frontend Optimization by Ameen Alqattow"
 layout: slideshow
 date: 2021-11-27
 published: true
