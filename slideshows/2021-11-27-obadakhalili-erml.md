@@ -55,8 +55,8 @@ image: /assets/img/logo.png
                             SIMPLE "DoB",
                             DERIVED "Age",
                             COMPOSITE "fullname" {
-                            SIMPLE "firstname",
-                            SIMPLE "lastname"
+                                SIMPLE "firstname",
+                                SIMPLE "lastname"
                             }
                         }
                     </script>
