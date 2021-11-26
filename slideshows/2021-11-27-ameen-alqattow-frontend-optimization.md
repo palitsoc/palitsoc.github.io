@@ -1,6 +1,9 @@
 ---
 title: Frontend Loading Optimization
 subtitle: "Application Performance Optimization : Frontend Loading"
+slideshow_title: "Application Performance Optimization : Frontend Loading"
+author: Ameen Alqattow
+author_title: Development Tech Lead @ Innotech
 description: "Application Performance Optimization : Frontend Loading by Ameen Alqattow"
 layout: slideshow
 date: 2021-11-27
@@ -230,13 +233,38 @@ image: /assets/img/logo.png
 </section>
 <section>
     <h2>Tree Shaking</h2>
+    <ul>
+    <li>Tree Shaking is the name of a common JS technique to remove dead code</li>
+    <li>Its usually done by javascript bundlers, and relies on <code>import</code> and <code>export</code> statements</li>
+    <li>Each Bundler does it a little different</li>
+    <li>But the end result is the same : smaller JS, leading to faster loading and render times</li>
+    </ul>
 </section>
 <section>
     <h2>Code Splitting</h2>
+    <ul>
+    <li>Code splitting is a technique where our application gets divided into multiple files</li>
+    <li>This is done, once again, by javascript bundlers</li>
+    <li>The main premise is to split parts of the code that are not relevant and loading them seperately</li>
+    <li>Another use is to only load common/shared code once</li>
+    <li>Once again, the result is the same, smaller JS files in the page, leading to faster loading and rendering, at the cost of complexity in coding/bundling</li>
+    </ul> 
 </section>
 <section>
     <h2>Lazy Loading</h2>
+    <ul>
+        <li>Lazy loading is a technique where our applications components get loaded only as they are needed</li>
+        <li>This comes at a cost of more complexity in the front end, and slower interaction when page components need to be loaded</li>
+        <li>Each framework implements this differently, but the permise is the same : load only what you need at startup, and then load the components you need as you go</li>
+        <li>This means we only load the bare minimum on the initial load, making it very fast</li>
+    </ul>
 </section>
 <section>
     <h2>Dependency Un/Bundling</h2>
+    <ul>
+        <li>The Last technique is dependency bundling and unbundling</li>
+        <li>We can instruct our javascript bundler on how to work with our dependencies, and how to distribute them</li>
+        <li>By using dependency un/bundling correctly, in tandem with agressive caching policies and a CDN, its possible to isolate our own code from our libraries</li>
+        <li>This means that only our code - that we change - is loaded, while our library code/imported code stays cached, leading to faster load times</li>
+    </ul>
 </section>

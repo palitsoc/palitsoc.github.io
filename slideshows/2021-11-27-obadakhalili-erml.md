@@ -1,6 +1,9 @@
 ---
 title: ERML
 subtitle: Understanding ERML
+slideshow_title: Understanding ERML
+author: Obada Khalil
+author_title: Software Engineer @ Foothill Solution
 description: Understanding the ERML organization's vision by Obada Khalili
 layout: slideshow
 date: 2021-11-27
@@ -8,14 +11,6 @@ published: true
 image: /assets/img/logo.png
 ---
 
-<section>
-    <h2>About me</h2>
-    <ul>
-        <li>Obada Khalili</li>
-        <li>3rd year AI student at NNU in the CAP department</li>
-        <li>Software Engineer at Foothill Solutions</li>
-    </ul>
-</section>
 <section>
     <section>
         <h2>About the talk</h2>
@@ -164,7 +159,4 @@ image: /assets/img/logo.png
         </li>
         <li>Browse open-source projects that meet your requirements, choose one, and start solving its problems</li>
     </ul>
-</section>
-<section>
-    Thank You
 </section>
