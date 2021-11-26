@@ -30,6 +30,11 @@ image: /assets/img/logo.png
         <li>There are 4 Main metrics for Page Loading</li>
         <li>TTFB : Time to First Byte, the time that it takes for a user's browser to receive the first byte of page content</li>
         <li>FCP : First Contentful Paint, which is the time in seconds until we see anything of significance on the page</li>
+    </ul>
+</section>
+<section>
+    <h2>Metrics Definition</h2>
+    <ul>
         <li>LCP : Largest Contentful Paint, which is the time in seconds until the largest element/content on the page has finished rendering</li>
         <li>TTI: Time To Interactive, which is the time in seconds until the user can interact with page elements(forms, buttons,etc)</li>
     </ul>
@@ -207,4 +212,3 @@ image: /assets/img/logo.png
         <li>Are client side, so can be tailored to suit the environment</li>
     </ul>
 </section>
-
