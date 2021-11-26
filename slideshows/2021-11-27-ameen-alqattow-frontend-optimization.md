@@ -27,10 +27,11 @@ image: /assets/img/logo.png
 <section>
     <h2>Metrics Definition</h2>
     <ul>
-        <li>There are 3 Main metrics for Page Loading</li>
+        <li>There are 4 Main metrics for Page Loading</li>
+        <li>TTFB : Time to First Byte, the time that it takes for a user's browser to receive the first byte of page content</li>
         <li>FCP : First Contentful Paint, which is the time in seconds until we see anything of significance on the page</li>
         <li>LCP : Largest Contentful Paint, which is the time in seconds until the largest element/content on the page has finished rendering</li>
-        <li>TTI: Time To Interactive, which is the time ins econds until the user can interact with page elements(forms, buttons,etc)</li>
+        <li>TTI: Time To Interactive, which is the time in seconds until the user can interact with page elements(forms, buttons,etc)</li>
     </ul>
 </section>
 <section>
@@ -148,6 +149,35 @@ image: /assets/img/logo.png
         <li>Reduces load on our servers, meaning less response delay, improving load times</li>
     </ul>
 </section>
+
+<section>
+    <h2>Response Compression</h2>
+    <ul>
+        <li>HTTP Responses are either text or binary data</li>
+        <li>These can be compressed to save network bandwidth</li>
+        <li>As a general rule, the less network bandwidth used, the faster the page loads</li>
+    </ul>
+</section>
+<section>
+    <h3>Text/Response Compression</h3>
+    <ul>
+        <li>Response Compression is performed by the web server</li>
+        <li>This compression happens Just in Time, as the response is leaving the server</li>
+        <li>May reduce up to 70% network bandwidth</li>
+        <li>Handled transperantly by the browser and server</li>
+        <li>Can also be used to compress JSON, file downloads, etc</li>
+    </ul>
+</section>
+<section>
+    <h3>Media Compression</h3>
+    <ul>
+        <li>Media compression is using media formats that come pre-compressed</li>
+        <li>An Example of this is JPEG and WebM</li>
+        <li>This is done when these resources are created/exported, and not by the web server</li>
+        <li>Very helpful in content-heavy sites</li>
+    </ul>
+</section>
+
 <section>
     <h2>Caching</h2>
     <ul>
@@ -176,34 +206,6 @@ image: /assets/img/logo.png
         <li>These are a special kind of javascript code that allows us to manipulate the HTTP requests going out of the browser(among other things, such as notifications and background processing)</li>
         <li>These allow us to have very fine control over caching, storage, and policies</li>
         <li>Are client side, so can be tailored to suit the environment</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Response Compression</h2>
-    <ul>
-        <li>HTTP Responses are either text or binary data</li>
-        <li>These can be compressed to save network bandwidth</li>
-        <li>As a general rule, the less network bandwidth used, the faster the page loads</li>
-    </ul>
-</section>
-<section>
-    <h3>Text/Response Compression</h3>
-    <ul>
-        <li>Response Compression is performed by the web server</li>
-        <li>This compression happens Just in Time, as the response is leaving the server</li>
-        <li>May reduce up to 70% network bandwidth</li>
-        <li>Handled transperantly by the browser and server</li>
-        <li>Can also be used to compress JSON, file downloads, etc</li>
-    </ul>
-</section>
-<section>
-    <h3>Media Compression</h3>
-    <ul>
-        <li>Media compression is using media formats that come pre-compressed</li>
-        <li>An Example of this is JPEG and WebM</li>
-        <li>This is done when these resources are created/exported, and not by the web server</li>
-        <li>Very helpful in content-heavy sites</li>
     </ul>
 </section>
 
