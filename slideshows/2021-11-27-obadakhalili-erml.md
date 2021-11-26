@@ -3,7 +3,7 @@ title: ERML
 subtitle: Understanding ERML
 slideshow_title: Understanding ERML
 author: Obada Khalil
-author_title: Software Engineer @ Foothill Solution
+author_title: "Software Engineer @ Foothill Solutions <br/> AI Student @ An-Najah National University"
 description: Understanding the ERML organization's vision by Obada Khalili
 layout: slideshow
 date: 2021-11-27
