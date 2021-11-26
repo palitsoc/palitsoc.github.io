@@ -115,8 +115,10 @@ image: /assets/img/logo.png
         </div>
     </section>
     <section>
-        <a href="https://codesandbox.io/s/erml-talk-vp92e?file=/src/index.js" target="_blank">@erml/parser</a> is an open-source parser implementation of ERML standards
+        <a href="https://codesandbox.io/s/erml-talk-vp92e?file=/src/index.js" target="_blank">@erml/parser</a>
+        is an open-source parser implementation of ERML standards
     </section>
+
 </section>
 <section>
     <h2>ERML - The Visualizer</h2>
@@ -134,7 +136,8 @@ image: /assets/img/logo.png
         <ul>
             <li>DBML (Database Markup Language) is another language standard, set by Holistics, and it's designed to define and document database schemas and structures (relational models)</li>
             <li>
-                DBML has an online RM visualization tool; <a href="https://dbdiagram.io/d/619c7ced02cf5d186b6369c9" target="_blank">dbdiagram</a>
+                DBML has an online RM visualization tool;
+                <a href="https://dbdiagram.io/d/619c7ced02cf5d186b6369c9" target="_blank">dbdiagram</a>
             </li>
         </ul>
     </section>
