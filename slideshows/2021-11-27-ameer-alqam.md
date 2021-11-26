@@ -76,7 +76,7 @@ image: /assets/img/logo.png
         <h1>Quick demo</h1>
     </section>
     <section>
-        <iframe src="https://evening-river-84248.herokuapp.com/"></iframe>
+        <iframe width="700" height="700" src="https://evening-river-84248.herokuapp.com/"></iframe>
     </section>
 </section>
 <section>
