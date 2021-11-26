@@ -96,7 +96,6 @@ image: /assets/img/logo.png
     <ul>
         <li>Deferred CSS is usually used for styles that do not affect the initial page render</li>
         <li>It is rarer to use, as most CSS styles are distribured together, but can have a high impact on page load</li>
-        <li>Usually combined with Over the Head CSS for maximum effect</li>
     </ul>
     <pre><code><script type="text/template">
     <link rel="preload" href="/path/to/styles.css"
