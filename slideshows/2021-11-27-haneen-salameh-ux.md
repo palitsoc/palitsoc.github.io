@@ -30,20 +30,11 @@ image: /assets/img/logo.png
     </section>
     <section>
         <h1>USER EXPERIENCE IS EVERYWHERE</h1>
-        <img data-src="/assets/slideshows/2021-11-27-haneen-salameh-ux/ux_is_everywhere.png">
+        <img data-src="/assets/slideshows/2021-11-27-haneen-salameh-ux/ux_is_everywhere.jpg">
     </section>
     <section>
         <h1>The UX Design Process</h1>
         <img data-src=/assets/slideshows/2021-11-27-haneen-salameh-x/ux_process.png>
-    </section>
-    <section>
-        <h2>A process?</h2>
-        <ul>
-            <li>Not an OS process</li>
-            <li>A very small piece of sequential code</li>
-            <li>Elixir is functional in this context, but not pure</li>
-        </ul>
-        <img data-src="/assets/slideshows/2021-11-27-ameer-alqam-elixir/1.1_single_process.png">
     </section>
     <section>
         <h1>Step 1</h1>
