@@ -127,10 +127,19 @@ image: /assets/img/logo.png
     </script></code></pre>
 </section>
 <section>
+    <h3>Performance comparison</h3>
+     <img data-src="/assets/slideshows/2021-11-27-ameen-alqattow-frontend-optimization/without-defer-async-head.png">
+    <img data-src="/assets/slideshows/2021-11-27-ameen-alqattow-frontend-optimization/without-defer-async-body.png">
+</section>
+<section>
+     <img data-src="/assets/slideshows/2021-11-27-ameen-alqattow-frontend-optimization/with-async.png">
+    <img data-src="/assets/slideshows/2021-11-27-ameen-alqattow-frontend-optimization/with-defer.png">
+</section>
+<section>
     <h3>Lazy Loaded Media</h3>
     <ul>
+        <li>Lazy loading is a strategy to identify resources as non-blocking (non-critical) and load these only when needed</li>
         <li>Media, Such as Video, Images, etc, can be loaded asynchronously as well</li>
-        <li>This is called Lazy Loading</li>
         <li>As media may make up the bulk of a page's content, this is very helpful in getting the structure of the page up and making it feel faster</li>
     </ul>
     <pre><code><script type="text/template">
@@ -165,18 +174,18 @@ image: /assets/img/logo.png
 <section>
     <h3>Text/Response Compression</h3>
     <ul>
-        <li>Response Compression is performed by the web server</li>
+        <li>Response Compression is performed by the web server, May reduce up to 70% network bandwidth</li>
         <li>This compression happens Just in Time, as the response is leaving the server</li>
-        <li>May reduce up to 70% network bandwidth</li>
         <li>Handled transperantly by the browser and server</li>
         <li>Can also be used to compress JSON, file downloads, etc</li>
+        <li>Accept-Encoding: gzip, compress, br</li>
     </ul>
 </section>
 <section>
     <h3>Media Compression</h3>
     <ul>
         <li>Media compression is using media formats that come pre-compressed</li>
-        <li>An Example of this is JPEG and WebM</li>
+        <li>An Example of this is svg and WebP,WebM</li>
         <li>This is done when these resources are created/exported, and not by the web server</li>
         <li>Very helpful in content-heavy sites</li>
     </ul>
@@ -206,9 +215,9 @@ image: /assets/img/logo.png
 <section>
     <h3>Service Worker Caching</h3>
     <ul>
-        <li>The Second way to do caching is using Service Workers</li>
-        <li>These are a special kind of javascript code that allows us to manipulate the HTTP requests going out of the browser(among other things, such as notifications and background processing)</li>
-        <li>These allow us to have very fine control over caching, storage, and policies</li>
-        <li>Are client side, so can be tailored to suit the environment</li>
+        <li>Service workers essentially act as proxy servers that sit between web applications, the browser, and the network (when available).</li>
+        <li>Run in a worker context: it therefore has no DOM access, and runs on a different thread to the main JavaScript that powers your app, so it is non-blocking.</li>
+        <li>These give us ability to intercept and handle network requests</li>
+        <li>Used with Offline First and PWA</li>
     </ul>
 </section>
