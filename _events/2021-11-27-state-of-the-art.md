@@ -2,7 +2,7 @@
 title: State Of The Art Conference - Q4 2021
 subtitle: "State of The Art Conference - Q4 2021"
 author: Tareq Kirresh
-description:  "State of The Art Conference - Q4 2021 Summary, Gallery, and Slides"
+description:  "State of The Art Conference - Q4 2021 Summary, Gallery, and Presentations"
 layout: event
 date: 2021-11-27
 published: true
