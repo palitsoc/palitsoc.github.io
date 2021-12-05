@@ -1114,3 +1114,19 @@ pre {
     padding-left: 1rem;
   }
 }
+
+
+.event-gallery{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.event-gallery img{
+  display:flex;
+  padding:1rem;
+  width:33%;
+  object-fit: cover;
+height: 250px;
+}

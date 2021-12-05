@@ -17,6 +17,7 @@ description: A Society For Palestinian IT Professionals
 navbar-links:
   About: "about"
   Contact Us: "contact-us"
+  Events: "events"
 
 # --- Logo --- #
 
@@ -238,4 +239,6 @@ collections:
   slideshows:
     output: true
   posts:
+    output: true
+  events:
     output: true
