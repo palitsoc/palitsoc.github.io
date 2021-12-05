@@ -2,11 +2,11 @@
 title: State Of The Art Conference - Q4 2021
 subtitle: "State of The Art Conference - Q4 2021"
 author: Tareq Kirresh
-description:  "State of The Art Conference - Q4 2021"
+description:  "State of The Art Conference - Q4 2021 Summary, Gallery, and Slides"
 layout: event
 date: 2021-11-27
 published: true
-image: /assets/img/logo.png
+image: /assets/events/2021-11-27-state-of-the-art/15.jpg
 ---
 This conference was hosted at the Korean Institute at An-Najah National University. Sponsored By Foothill Solutions, this was the kickoff event for the Palestinian IT Society. 9 Speakers where brought in from various leading companies in the field, sharing their latest knowledge. These Open-House events are important to maintain a sense of community and networking. With attendance from professionals from the IT industry, students from An-Najah, with delegations from both IEEE Birzeit University and IEEE Arab-American University.This event is the first of its kind, and we intend to host more events - and make the State of The Art Conference a quarterly, open house event.
 

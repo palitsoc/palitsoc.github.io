@@ -1128,5 +1128,16 @@ pre {
   padding:1rem;
   width:33%;
   object-fit: cover;
-height: 250px;
+  height: 250px;
+}
+
+@media (max-width: 768px) {
+  .event-gallery img{
+    display:flex;
+    padding:2rem;
+    width:100%;
+    object-fit: cover;
+    height: 250px;
+  }
+  
 }
