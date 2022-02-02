@@ -9,18 +9,24 @@ hide_title: true
 ---
 
 {% assign partners = site.partners %}
-<div class="partners-gallery">
-    {% for partner in partners %}
-        <div class="partner-card-container">
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text">
-                        <img src="{{partner.logo}}">
-                        {{partner.content}}
-                    </p>
-                    <a href="{{partner.website}}" class="btn btn-primary" target="_blank" class="card-link">Website</a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-lg-10 offset-lg-1 col-sm-12">
+            <div class="partners-gallery">
+            {% for partner in partners %}
+                <div class="partner-card-container">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <img src="{{partner.logo}}">
+                                {{partner.content}}
+                            </p>
+                            <a href="{{partner.website}}" class="btn btn-primary" target="_blank" class="card-link">Learn More</a>
+                        </div>
+                    </div>
                 </div>
+            {% endfor %}
             </div>
-        </div>
-    {% endfor %}
-</div> 
+        </div> 
+    </div>
+</div>

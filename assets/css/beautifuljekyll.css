@@ -1154,7 +1154,7 @@ pre {
   padding:1rem;
   width:33%;
   object-fit: cover;
-  min-height: 40rem;
+  min-height: 30rem;
 }
 
 .partners-gallery .partner-card-container .card{
@@ -1167,7 +1167,7 @@ pre {
     padding:2rem;
     width:100%;
     object-fit: cover;
-    min-height: 40rem;
+    min-height: 30rem;
   }
 }
 
@@ -1184,7 +1184,7 @@ pre {
 .partners-gallery .partner-card-container .card .card-body a{
   position:absolute;
   bottom: 1rem;
-  right: 1rem;
+  left: 1rem;
   background-color: #61C6AB;
   border-color: #61C6AB
 }
