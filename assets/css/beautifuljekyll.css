@@ -1197,3 +1197,10 @@ pre {
   margin-bottom: 0.25rem;
   object-fit: contain;
 }
+
+@media(max-width:900px){
+  .partners-gallery .partner-card-container .card .card-body img{
+    margin-bottom: 1rem;
+    object-fit: contain;
+  }
+}
