@@ -2,7 +2,7 @@
 name: Foothill Solutions
 partnership : Strategic Partner
 website: https://www.foothillsolutions.com
-logo: https://www.foothillsolutions.com/static/logo-a1f0dd26b5e986c8b9d362aec4fad576.png
+logo: /assets/img/company/foothill.png
 ---
 
 Foothill Technology Solutions is an International Software development company with Offices in the USA and Palestine. FTS provides an array of advanced development and consulting services with the highest standards, along with an in-house engineering.
