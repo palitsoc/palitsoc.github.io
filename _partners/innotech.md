@@ -1,5 +1,6 @@
 ---
 name: Innotech
+partnership: Strategic Partner
 website: http://innotech.ps
 logo: http://innotech.ps/assets/img/innotech/Innotech-Logo.png
 ---

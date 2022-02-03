@@ -1194,5 +1194,6 @@ pre {
   padding-left:1rem;
   padding-right:1rem;
   height:4rem;
+  margin-bottom: 0.25rem;
   object-fit: contain;
 }

@@ -1,5 +1,6 @@
 ---
 name: Foothill Solutions
+partnership : Strategic Partner
 website: https://www.foothillsolutions.com
 logo: https://www.foothillsolutions.com/static/logo-a1f0dd26b5e986c8b9d362aec4fad576.png
 ---
