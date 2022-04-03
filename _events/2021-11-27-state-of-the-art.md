@@ -12,15 +12,15 @@ This conference was hosted at the Korean Institute at An-Najah National Universi
 
 # Presentations
 
-- [Elixir & OTP - Ameer Alqam](/slideshows/2021-11-27-ameer-alqam-elixir)
-- [Request Smuggling - Basel Alsayed](/slideshows/2021-11-27-basel-alsayed-request-smuggling-vulnerability)
-- [UX Process - Haneen Salameh](/slideshows/2021-11-27-haneen-salameh-ux)
-- [Application Performance Optimization : Materialized Views - Mohammad AlJundi](/slideshows/2021-11-27-mohammad-aljundi-materialized-views)
-- [Why You Don't Need That Framework : Selecting Your Stacks - Tareq Kirresh](/slideshows/2021-11-27-tareq-kirresh-overnegineering)
-- [Application Performance Optimization : Frontend Loading - Ameen Alqattow](/slideshows/2021-11-27-ameen-alqattow-frontend-optimization)
-- [Elasticsearch : Powering search & analytics - Ahmad Bamieh](/slideshows/2021-11-27-ahmad-bamieh-elasticsearch)
-- [Understanding ERML - Obada Khalil](/slideshows/2021-11-27-obadakhalili-erml)
-- [XR In Storytelling - Jumana Saad](/slideshows/2021-11-27-jumana-saad-XR)
+- [Elixir & OTP - Ameer Alqam](/slideshows/2021-11-27-ameer-alqam-elixir){:target="_blank"}
+- [Request Smuggling - Basel Alsayed](/slideshows/2021-11-27-basel-alsayed-request-smuggling-vulnerability){:target="_blank"}
+- [UX Process - Haneen Salameh](/slideshows/2021-11-27-haneen-salameh-ux){:target="_blank"}
+- [Application Performance Optimization : Materialized Views - Mohammad AlJundi](/slideshows/2021-11-27-mohammad-aljundi-materialized-views){:target="_blank"}
+- [Why You Don't Need That Framework : Selecting Your Stacks - Tareq Kirresh](/slideshows/2021-11-27-tareq-kirresh-overnegineering){:target="_blank"}
+- [Application Performance Optimization : Frontend Loading - Ameen Alqattow](/slideshows/2021-11-27-ameen-alqattow-frontend-optimization){:target="_blank"}
+- [Elasticsearch : Powering search & analytics - Ahmad Bamieh](/slideshows/2021-11-27-ahmad-bamieh-elasticsearch){:target="_blank"}
+- [Understanding ERML - Obada Khalil](/slideshows/2021-11-27-obadakhalili-erml){:target="_blank"}
+- [XR In Storytelling - Jumana Saad](/slideshows/2021-11-27-jumana-saad-XR){:target="_blank"}
 
 # Gallery
 
