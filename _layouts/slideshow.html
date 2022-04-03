@@ -47,6 +47,7 @@
     <script src="/assets/js/reveal/plugin/math/math.js"></script>
     <script src="/assets/js/reveal/plugin/notes/notes.js"></script>
     <script src="/assets/js/reveal/plugin/zoom/zoom.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/TareqK/reveal-control@master/dist/reveal-control.min.js"></script>
     <script>
         Reveal.initialize({
             controls: true,
@@ -56,7 +57,10 @@
             touch: true,
             transition: 'slide', // none/fade/slide/convex/concave/zoom
             hash: true,
-            plugins: [RevealHighlight, RevealMath.KaTeX, RevealNotes, RevealZoom]
+            revealControl: {
+                url: "wss://reveal-control.kisoft.me/reveal-control"
+            },
+            plugins: [RevealHighlight, RevealMath.KaTeX, RevealNotes, RevealZoom, RevealControl]
         });
     </script>
 </body>
